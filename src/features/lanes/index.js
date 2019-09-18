@@ -1,3 +1,3 @@
-import lanesReducer from "./reducer"
+import lanesReducer from "./reducer";
 
-export default lanesReducer
+export default lanesReducer;

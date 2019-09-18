@@ -1,5 +1,5 @@
-import React from 'react'
-import "./styles.scss"
+import React from "react";
+import "./styles.scss";
 
 const Lane = () => (
   <div className="lane">
@@ -9,6 +9,6 @@ const Lane = () => (
     <div className="lane-row-2" />
     <div className="lane-row-3" />
   </div>
-)
+);
 
-export default Lane
+export default Lane;

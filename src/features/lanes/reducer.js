@@ -1,37 +1,37 @@
-import { FETCH_LIVE_LANES, SELECT_LIVE_LANE } from "./actions"
+import { FETCH_LIVE_LANES, SELECT_LIVE_LANE } from "./actions";
 
 const INITIAL_STATE = {
   data: []
-}
+};
 
 const lanesReducer = (state = INITIAL_STATE, action) => {
-  switch(action.type){
+  switch (action.type) {
     case FETCH_LIVE_LANES:
       return {
         ...state,
         data: [...action.payload]
-      }
+      };
     case SELECT_LIVE_LANE:
       return {
         ...state,
         data: toggleSelectedLane(state.data, action.payload)
-      }
+      };
     default:
-      return state
+      return state;
   }
-}
+};
 
 const toggleSelectedLane = (lanes, selectedLane) => {
-  return lanes.map( lane => {
-    if(lane.lane === selectedLane){
+  return lanes.map(lane => {
+    if (lane.lane === selectedLane) {
       return {
         ...lane,
         isSelected: !lane.isSelected
-      }
-    }else{
-      return lane
+      };
+    } else {
+      return lane;
     }
-  })
-}
+  });
+};
 
-export default lanesReducer
+export default lanesReducer;

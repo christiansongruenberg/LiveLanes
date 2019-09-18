@@ -1,7 +1,7 @@
-import React from 'react';
-import LiveLanes from "pages/liveLanes"
-import Header from "components/header"
-import './App.scss';
+import React from "react";
+import LiveLanes from "pages/liveLanes";
+import Header from "components/header";
+import "./App.scss";
 
 function App() {
   return (
