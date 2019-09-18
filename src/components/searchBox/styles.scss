@@ -1,0 +1,23 @@
+.searchbox {
+  position: relative;
+  margin-right: 20px;
+
+  input {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border-radius: 10px;
+    border: 1px solid #a7a9ac;
+
+    &::placeholder {
+      font-family: "Proxima Nova";
+      font-size: 13px;
+      color: #a7a9ac;
+    }
+  }
+
+  .searchbox-icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+}

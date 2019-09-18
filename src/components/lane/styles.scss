@@ -1,0 +1,48 @@
+.lane {
+  width: 200px;
+  min-height: 700px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
+  .lane-square {
+    width: 100%;
+    height: 170px;
+    background-color: #edeeef;
+  }
+
+  .lane-oval {
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border: 4px solid #f8f8f8;
+    background-color: #edeeef;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .lane-row-1 {
+    width: 90%;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #edeeef;
+    margin-bottom: 10px;
+  }
+
+  .lane-row-2 {
+    width: 80%;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #edeeef;
+    margin-bottom: 10px;
+  }
+
+  .lane-row-3 {
+    width: 90%;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #edeeef;
+  }
+}

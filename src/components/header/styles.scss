@@ -1,0 +1,144 @@
+.header {
+  background-color: #24292f;
+  height: 50px;
+  position: relative;
+
+  .header-content {
+    width: 1664px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+
+  .header-logo {
+    font-family: "Gotham Rounded";
+    font-size: 25px;
+    color: #1abb99;
+    line-height: 25px;
+    margin-right: 40px;
+  }
+}
+
+.logo {
+  width: 24px;
+  height: 18px;
+  margin-right: 2px;
+
+  .logo-row-1 {
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    height: 4px;
+    margin-bottom: 2px;
+  }
+
+  .logo-row-2 {
+    width: 50%;
+    background-color: white;
+    border-radius: 3px;
+    height: 4px;
+    margin-bottom: 2px;
+  }
+
+  .logo-row-3 {
+    width: 80%;
+    background-color: white;
+    border-radius: 3px;
+    height: 4px;
+  }
+}
+.tabs {
+  display: flex;
+  .header-tab {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    height: 50px;
+
+    .header-tab-icon {
+      margin-right: 20px;
+    }
+
+    .header-tab-text {
+      color: #7c7f82;
+      font-family: "Proxima Nova";
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .header-tab-selection {
+      fill: white;
+      position: absolute;
+      bottom: -5px;
+      left: 50%;
+    }
+  }
+}
+
+.sub-header {
+  height: 52px;
+  border-bottom: 2px solid #f6f7f7;
+  display: flex;
+  position: relative;
+
+  .sub-header-content {
+    width: 1664px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.sub-header-tab {
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #a7a9ac;
+  margin-right: 46px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  &--selected {
+    color: #2c8ed9;
+    border-bottom: 2px solid #2c8ed9;
+    cursor: default;
+  }
+}
+
+.profile {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+}
+
+.filters {
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+  .filters-text {
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #7c7f82;
+    font-weight: 600;
+  }
+}

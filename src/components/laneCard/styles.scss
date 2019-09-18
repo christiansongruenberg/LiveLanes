@@ -1,0 +1,49 @@
+.lane-card {
+  padding: 16px 0;
+  cursor: pointer;
+
+  &--selected {
+    background-color: #f6fffd;
+  }
+
+  .card-row {
+    line-height: 13px;
+  }
+
+  .card-row:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .card-name {
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    font-size: 13px;
+    color: #1abb99;
+    text-transform: uppercase;
+  }
+
+  .card-auction {
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    color: #a7a9ac;
+  }
+
+  .card-car-model {
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    font-weight: 600;
+    color: #24292f;
+  }
+
+  .card-items-remaining {
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    color: #a7a9ac;
+  }
+
+  .card-watchlist {
+    font-family: "Proxima Nova";
+    font-size: 13px;
+    color: #f6bf6f;
+  }
+}

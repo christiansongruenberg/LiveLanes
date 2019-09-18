@@ -1,0 +1,42 @@
+.lane-cards-list-tabs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f6f7f7;
+  margin-right: 20px;
+}
+
+.lane-cards-list-tab {
+  font-size: 10px;
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #a7a9ac;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+
+  &--selected {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+}
+
+.lane-cards-list-badge {
+  width: 20px;
+  height: 20px;
+
+  margin-left: 4px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.lane-cards-list {
+  & .lane-card {
+    border-bottom: 2px solid #f6f7f7;
+  }
+}
